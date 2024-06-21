@@ -1,6 +1,4 @@
-Certainly! Here's a sample README file for your Instagram clone project using HTML and CSS. You can adjust the content as per your specific details.
 
----
 
 # Instagram Clone
 
@@ -64,8 +62,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - [Instagram](https://www.instagram.com) - For the inspiration
 - [Font Awesome](https://fontawesome.com) - For icons
 - [Google Fonts](https://fonts.google.com) - For fonts
-- [Unsplash](https://unsplash.com) - For images
-
----
-
-Feel free to let me know if you need any more information or further customization!
