@@ -53,12 +53,12 @@ Contributions are what make the open source community such an amazing place to l
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-# To View the the instagram clone click on this Link
-
-https://rudraarora.github.io/Instagram-Clone/
-
 ## Acknowledgements
 
 - [Instagram](https://www.instagram.com) - For the inspiration
 - [Font Awesome](https://fontawesome.com) - For icons
 - [Google Fonts](https://fonts.google.com) - For fonts
+
+# To View the the instagram clone click on this Link
+
+https://rudraarora.github.io/Instagram-Clone/
