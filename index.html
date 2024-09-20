@@ -15,12 +15,12 @@
     <!-- sidebar-->
     <div class="sidebar">
       <a href="#" class="logo">
-        <img src="img/logo1.png" alt="logo" />
+        <img src="logo1.png" alt="logo" />
       </a>
       <!--profile Image-->
       <div class="profile">
         <div class="profile-img">
-          <img src="img/profile.jpg" alt="profile" />
+          <img src="profile.jpg" alt="profile" />
         </div>
         <div class="name">
           <h1>Rudra Arora</h1>
@@ -110,7 +110,8 @@
           <i class="ri-notification-4-line"></i>
           <i class="ri-mail-unread-fill"></i>
           <!--Button-->
-          <a href="#" class="btn">
+          <input type="file" id="photo-input" style="display: none;" />
+          <a href="#" id="add-photo-button" class="btn">
             <i class="ri-add-circle-fill"></i>
             <div class="btn-text">Add photos</div>
           </a>
@@ -126,44 +127,44 @@
       <div class="stories">
         <!--Stories 1-->
         <div class="stories-img color">
-          <img src="img/profile.jpg" alt="profile" />
+          <img src="profile.jpg" alt="profile" />
           <div class="add">+</div>
         </div>
         <!--Stories 2-->
         <div class="stories-img">
-          <img src="img/profile1.jpg" alt="profile" />
+          <img src="profile1.jpg" alt="profile" />
         </div>
         <!--Stories 3-->
         <div class="stories-img">
-          <img src="img/postnew1.jpg" alt="profile" />
+          <img src="postnew1.jpg" alt="profile" />
         </div>
         <!--Stories 4-->
         <div class="stories-img">
-          <img src="img/postnew2.jpg" alt="profile" />
+          <img src="postnew2.jpg" alt="profile" />
         </div>
         <!--Stories 5-->
         <div class="stories-img">
-          <img src="img/postnew3.jpg" alt="profile" />
+          <img src="postnew3.jpg" alt="profile" />
         </div>
         <!--Stories 6-->
         <div class="stories-img">
-          <img src="img/postnew4.jpg" alt="profile" />
+          <img src="postnew4.jpg" alt="profile" />
         </div>
         <!--Stories 7-->
         <div class="stories-img">
-          <img src="img/postnew5.jpg" alt="profile" />
+          <img src="postnew5.jpg" alt="profile" />
         </div>
         <!--Stories 8-->
         <div class="stories-img">
-          <img src="img/postnew6.jpg" alt="profile" />
+          <img src="postnew6.jpg" alt="profile" />
         </div>
         <!--Stories 9-->
         <div class="stories-img">
-          <img src="img/postnew7.jpg" alt="profile" />
+          <img src="postnew7.jpg" alt="profile" />
         </div>
         <!--Stories 10-->
         <div class="stories-img">
-          <img src="img/postnew8.jpg" alt="profile" />
+          <img src="postnew8.jpg" alt="profile" />
         </div>
       </div>
       <div class="feed">
@@ -176,11 +177,11 @@
       <div class="main-post">
         <!-- Box1 -->
         <div class="post-box">
-          <img src="img/postnew1.jpg" alt="post" />
+          <img src="postnew1.jpg" alt="post" />
           <div class="post-info">
             <div class="post-profile">
               <div class="post-img">
-                <img src="img/postnew1.jpg" alt="profile" />
+                <img src="postnew1.jpg" alt="profile" />
               </div>
               <h3>Rudyy!!</h3>
             </div>
@@ -194,11 +195,11 @@
         </div>
         <!-- Box2 -->
         <div class="post-box">
-          <img src="img/postnew2.jpg" alt="post" />
+          <img src="postnew2.jpg" alt="post" />
           <div class="post-info">
             <div class="post-profile">
               <div class="post-img">
-                <img src="img/postnew2.jpg" alt="profile" />
+                <img src="postnew2.jpg" alt="profile" />
               </div>
               <h3>Classy!!</h3>
             </div>
@@ -212,11 +213,11 @@
         </div>
         <!-- Box3 -->
         <div class="post-box">
-          <img src="img/postnew3.jpg" alt="post" />
+          <img src="postnew3.jpg" alt="post" />
           <div class="post-info">
             <div class="post-profile">
               <div class="post-img">
-                <img src="img/postnew3.jpg" alt="profile" />
+                <img src="postnew3.jpg" alt="profile" />
               </div>
               <h3>Elegant !!</h3>
             </div>
@@ -228,7 +229,11 @@
             </div>
           </div>
         </div>
+        <div id="photo-gallery"></div>
+    
       </div>
     </div>
+  
+    <script src="script.js"></script>
   </body>
 </html>
