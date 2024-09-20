@@ -8,7 +8,7 @@ Welcome to the Instagram Clone! This project is a simple recreation of the Insta
 
 - [Demo](#demo)
 - [Features](#features)
-- [Technologies Used](#TechnologiesUsed)
+- [Technologies Used](#Technologies-Used)
 - [Prerequisites](#Prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,11 +16,6 @@ Welcome to the Instagram Clone! This project is a simple recreation of the Insta
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
-## Demo
-
-Check out the live demo [here](#).
-
-![Instagram Clone Screenshot](path/to/your/screenshot.png)
 
 ## Features
 
@@ -113,6 +108,8 @@ Contributions are what make the open source community such an amazing place to l
 - [Font Awesome](https://fontawesome.com) - For icons
 - [Google Fonts](https://fonts.google.com) - For fonts
 
-# To View the the instagram clone click on this Link
+## Demo
+
+Check out the live demo:
 
 https://rudraarora.github.io/Instagram-Clone/
