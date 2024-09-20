@@ -8,6 +8,8 @@ Welcome to the Instagram Clone! This project is a simple recreation of the Insta
 
 - [Demo](#demo)
 - [Features](#features)
+- [Technologies Used](#TechnologiesUsed)
+- [Prerequisites](#Prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -27,17 +29,69 @@ Check out the live demo [here](#).
 - User profile page
 - Explore page layout
 - Basic styles mimicking Instagram
+- Add new posts with images and captions
+- Responsive design for mobile and desktop
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Express.js
+- MongoDB (or any database you are using)
+
+## Prerequisites
+
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (version >= 14.x.x)
+- [MongoDB](https://www.mongodb.com/) (set up locally or use MongoDB Atlas for cloud database)
+- Cloudinary account for storing images
 
 ## Installation
 
 1. Clone the repository:
-   ```sh
-   git clone [https://github.com/RudraArora/Instagram-Clone.git]
-   ```
+
+   \`\`\`bash
+   git clone https://github.com/your-username/instagram-clone.git
+   \`\`\`
+
 2. Navigate to the project directory:
-   ```sh
-   cd instagram-Clone
-   ```
+
+   \`\`\`bash
+   cd instagram-clone
+   \`\`\`
+
+3. Install the dependencies:
+
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+4. Create a `.env` file in the root directory and add the following environment variables:
+
+   \`\`\`
+   MONGO_URI=<Your MongoDB URI>
+   CLOUDINARY_CLOUD_NAME=<Your Cloudinary Cloud Name>
+   CLOUDINARY_API_KEY=<Your Cloudinary API Key>
+   CLOUDINARY_API_SECRET=<Your Cloudinary API Secret>
+   JWT_SECRET=<Your JWT Secret Key>
+   \`\`\`
+
+### Running the App
+
+1. Start the backend server:
+
+   \`\`\`bash
+   npm run server
+   \`\`\`
+
+2. In another terminal window, start the React frontend:
+
+   \`\`\`bash
+   npm start
+   \`\`\`
+   
 
 ## Usage
 
