@@ -6,7 +6,6 @@ Welcome to the Instagram Clone! This project is a simple recreation of the Insta
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Features](#features)
 - [Technologies Used](#Technologies-Used)
 - [Prerequisites](#Prerequisites)
@@ -15,6 +14,7 @@ Welcome to the Instagram Clone! This project is a simple recreation of the Insta
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+- [Demo](#demo)
 
 
 ## Features
